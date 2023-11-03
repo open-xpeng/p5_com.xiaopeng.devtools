@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_sensor_test" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_screen_selftest"/>
+    <RelativeLayout android:id="@+id/dismode_onoff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginBottom="20dp" android:layout_below="@+id/action_bar" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/dismode_on_off_header" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/dismode_on_off_test"/>
+        <Switch android:id="@+id/switch_dismode_on_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64dp" android:textOn="@string/switch_on" android:textOff="@string/switch_off" android:layout_toRightOf="@+id/dismode_on_off_header" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_below="@+id/dismode_onoff">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signal_name" android:layout_alignParentLeft="true" style="@style/common_text_style"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signal_error_count" android:layout_centerHorizontal="true" style="@style/common_text_style"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signal_last_time" android:layout_alignParentRight="true" style="@style/common_text_style"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/title_layout"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/layout_common">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lcd_error_statistics" android:layout_alignParentLeft="true" style="@style/common_text_style"/>
+        <TextView android:id="@+id/tv_count_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" style="@style/common_text_style"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:text="@string/lcd_current_result" style="@style/common_text_style"/>
+        <TextView android:id="@+id/tv_current_result" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/common_text_style"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/layout_factory_test_common" layout="@layout/layout_factory_test_common"/>
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

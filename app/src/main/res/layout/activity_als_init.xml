@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/als_init_title"/>
+    <TextView android:textSize="@dimen/height_30" android:textColor="@color/color_ffffff" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginTop="80dp" android:text="@string/als_init_tips"/>
+    <LinearLayout android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginTop="150dp">
+        <TextView android:textSize="64sp" android:id="@+id/tv_als_init_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_result"/>
+        <TextView android:textSize="70sp" android:textStyle="bold" android:id="@+id/tv_als_init_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+</LinearLayout>

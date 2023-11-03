@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/item_button" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginLeft="@dimen/x_btn_icon_large_padding" android:layout_marginTop="@dimen/x_btn_icon_large_padding" android:layout_marginRight="@dimen/x_btn_icon_large_padding" style="@style/XButton.Real.Mid.Positive"/>

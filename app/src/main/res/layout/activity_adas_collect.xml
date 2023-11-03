@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:centerTextResId="@string/drive_adas_collect"/>
+    <CheckBox android:textSize="30sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/checkbox_collect_adas" android:background="@drawable/selector_btn_common" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="30dp" android:button="@drawable/check_box" android:text="@string/start_collect_adas"/>
+    <Button android:textSize="30sp" android:textColor="@drawable/text_color" android:id="@+id/bt_clear_adas" android:background="@drawable/selector_btn_common" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="30dp" android:text="@string/clear_log"/>
+    <Button android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/copy_adas_bt" android:background="@drawable/selector_btn_common" android:layout_width="448dp" android:layout_height="130dp" android:layout_marginTop="500dp" android:text="@string/copy_log"/>
+    <TextView android:textSize="24sp" android:textColor="@android:color/white" android:id="@+id/tv_copy_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp"/>
+</LinearLayout>

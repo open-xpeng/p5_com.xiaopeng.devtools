@@ -1,0 +1,195 @@
+[
+  {
+    "mErrorCodeList":
+    {
+      "1000":{"mErrorNameEng":"NXP DSP probe fail","mErrorNameCn":"外放DSP探测失败"},
+      "1001":{"mErrorNameEng":"NXP DSP Resume error","mErrorNameCn":"外放DSP唤醒异常"},
+      "1002":{"mErrorNameEng":"NXP DSP HW Write error","mErrorNameCn":"外放DSP硬件写出错"},
+      "1003":{"mErrorNameEng":"NXP DSP HW Read error","mErrorNameCn":"外放DSP硬件读出错"},
+      "1004":{"mErrorNameEng":"NXP DSP ScanAddr error","mErrorNameCn":"外放DSP通信地址扫描失败"},
+      "1020":{"mErrorNameEng":"REC DSP Probe fail","mErrorNameCn":"录音DSP探测失败"},
+      "1021":{"mErrorNameEng":"REC DSP Resume error","mErrorNameCn":"录音DSP唤醒异常"},
+      "1022":{"mErrorNameEng":"REC DSP HW Write error","mErrorNameCn":"录音DSP硬件写出错"},
+      "1023":{"mErrorNameEng":"REC DSP HW Read error","mErrorNameCn":"录音DSP硬件读出错"},
+      "1024":{"mErrorNameEng":"REC DSP firmware load fail","mErrorNameCn":"录音DSP固件加载失败"},
+      "1025":{"mErrorNameEng":"REC DSP mode change fail","mErrorNameCn":"录音DSP工作模式切换失败"},
+      "1026":{"mErrorNameEng":"REC DSP SPI INIT FAIL","mErrorNameCn":"录音DSP SPI 初始化失败"},
+      "1027":{"mErrorNameEng":"REC DSP SPI WRITE ERROR","mErrorNameCn":"录音DSP SPI 写出错"},
+      "1028":{"mErrorNameEng":"REC DSP SPI READ ERROR","mErrorNameCn":"录音DSP SPI 读出错"},
+      "1040":{"mErrorNameEng":"AMP PROBE FAIL","mErrorNameCn":"功放探测失败"},
+      "1041":{"mErrorNameEng":"AMP OPEN FAIL","mErrorNameCn":"功放开启异常"},
+      "1042":{"mErrorNameEng":"AMP CLOSE FAIL","mErrorNameCn":"功放关闭异常"},
+      "1043":{"mErrorNameEng":"AMP write data fail","mErrorNameCn":"功放写数据失败"},
+      "1044":{"mErrorNameEng":"AMP read data fail","mErrorNameCn":"功放读取数据失败"},
+      "1060":{"mErrorNameEng":"I2C write data fail","mErrorNameCn":"I2C写数据失败"},
+      "1061":{"mErrorNameEng":"I2C read data fail","mErrorNameCn":"I2C读取数据失败"},
+      "1070":{"mErrorNameEng":"MI2S STARTUP FAILED","mErrorNameCn":"I2S时钟配置失败"},
+      "1200":{"mErrorNameEng":"HAL audio platform init fail","mErrorNameCn":"HAL音频平台初始化失败"},
+      "1201":{"mErrorNameEng":"HAL Unable to find correct sound card","mErrorNameCn":"HAL音频平台没有找到有用的声卡"},
+      "1202":{"mErrorNameEng":"HAL acdb init fail","mErrorNameCn":"HAL音频平台ACDB初始化失败"},
+      "1600":{"mErrorNameEng":"HAL NXP dsp handshake fail","mErrorNameCn":"HAL层NXP DSP握手失败"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "2001":{"mErrorNameEng":"TI954 PROBE Failed","mErrorNameCn":"ti954 probe失败"},
+      "2002":{"mErrorNameEng":"MX9296 PROBE failed","mErrorNameCn":"mx9296 probe失败"},
+      "2010":{"mErrorNameEng":"Serializer 913 no output","mErrorNameCn":"远端913没有输入"},
+      "2011":{"mErrorNameEng":"Serializer 953 no output","mErrorNameCn":"远端953没有输入"},
+      "2012":{"mErrorNameEng":"Serializer xpu no output","mErrorNameCn":"远端xpu没有输入"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "3001":{"mErrorNameEng":"enabled timeout","mErrorNameCn":"蓝牙打开超时"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "4001":{"mErrorNameEng":"enabled timeout","mErrorNameCn":"wifi打开超时"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "5486":{"mErrorNameEng":"No Public Key","mErrorNameCn":"找不到对应公钥"},
+      "5485":{"mErrorNameEng":"get Aes Key Cipher Failed","mErrorNameCn":"获取AES加解密Cipher对象失败"},
+      "5498":{"mErrorNameEng":"No Cert","mErrorNameCn":"找不到对应证书"},
+      "5459":{"mErrorNameEng":"get Verify Signature Fail","mErrorNameCn":"获取验签Signature对象失败"},
+      "5493":{"mErrorNameEng":"get Alias Fail","mErrorNameCn":"获取别名失败"},
+      "5402":{"mErrorNameEng":"No Root Key","mErrorNameCn":"找不到根密钥/未预置PSO密钥"},
+      "5098":{"mErrorNameEng":"BLE cert Error","mErrorNameCn":"BLE验签获取证书错误"},
+      "5097":{"mErrorNameEng":"BLE get aes Key Error","mErrorNameCn":"获取AES加解密Cipher对象失败"},
+      "5093":{"mErrorNameEng":"BLE NoPublicKey","mErrorNameCn":"BLE找不到对应公钥"},
+      "5092":{"mErrorNameEng":"BLE get Verify Signature Failed","mErrorNameCn":"BLE获取验签Signature对象失败"},
+      "5091":{"mErrorNameEng":"BLE get Alias Failed","mErrorNameCn":"BLE获取别名失败"},
+      "5090":{"mErrorNameEng":"BLE No Root Key","mErrorNameCn":"BLE找不到根密钥/未预置PSO密钥"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "6000":{"mErrorNameEng":"NOT INDIV","mErrorNameCn":"未个性化"},
+      "6001":{"mErrorNameEng":"FAILED INIT XMART KEYSTORE","mErrorNameCn":"初始化加密keystore失败"},
+      "6002":{"mErrorNameEng":"FAILED INIT DEFAULT KEYSTORE","mErrorNameCn":"初始化加密默认keystore失败"},
+      "6003":{"mErrorNameEng":"FAILED INIT KEYSTORE SSL FACTORY","mErrorNameCn":"初始化http证书ssl factory失败"},
+      "6004":{"mErrorNameEng":"FAILED INIT KEYSTORE TRUST MGR","mErrorNameCn":"初始化http证书trust manager失败"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "7001":{"mErrorNameEng":"main board's temperature is overheat","mErrorNameCn":"大屏主板温度过高"},
+      "7002":{"mErrorNameEng":"main board's temperature is too lower","mErrorNameCn":"大屏主板温度过低"},
+      "7003":{"mErrorNameEng":"CPU's temperature is overheat","mErrorNameCn":"大屏CPU温度过高"},
+      "7004":{"mErrorNameEng":"CPU's temperature is too lower","mErrorNameCn":"大屏CPU温度过低"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "8000":{"mErrorNameEng":"Over temperature","mErrorNameCn":"屏幕温度过温"},
+      "8001":{"mErrorNameEng":"Over voltage","mErrorNameCn":"屏幕电源电压过高"},
+      "8002":{"mErrorNameEng":"Under voltage","mErrorNameCn":"屏幕电源电压过低"},
+      "8003":{"mErrorNameEng":"Touch initialization fault","mErrorNameCn":"触摸初始化失败"},
+      "8004":{"mErrorNameEng":"Buck A fault","mErrorNameCn":"屏幕电源A错误"},
+      "8005":{"mErrorNameEng":"Buck B fault","mErrorNameCn":"屏幕电源B错误"},
+      "8006":{"mErrorNameEng":"Backlight fault","mErrorNameCn":"屏幕背光错误"},
+      "8007":{"mErrorNameEng":"TCON fault","mErrorNameCn":"屏幕时序控制电路错误"},
+      "8008":{"mErrorNameEng":"Frame alignment","mErrorNameCn":"屏幕帧对齐错误"},
+      "8009":{"mErrorNameEng":"Ashell operationa","mErrorNameCn":"屏幕数据通信连接错误"},
+      "8010":{"mErrorNameEng":"Video locked","mErrorNameCn":"视频信号失锁"},
+      "8011":{"mErrorNameEng":"Video barrel shifter","mErrorNameCn":"视频芯片偏移"},
+      "8012":{"mErrorNameEng":"mipi signal quality","mErrorNameCn":"mipi信号质量"},
+      "8013":{"mErrorNameEng":"receiver video link unlock","mErrorNameCn":"解串芯片video 失锁"},
+      "8014":{"mErrorNameEng":"transmitter video link unlock","mErrorNameCn":"加串芯片video 失锁"},
+      "8015":{"mErrorNameEng":"mipi unlock","mErrorNameCn":"mipi 视频信号失锁"},
+      "8016":{"mErrorNameEng":"transmitter reset","mErrorNameCn":"发送器复位"},
+      "8017":{"mErrorNameEng":"sn65dsi84 video link error","mErrorNameCn":"sn65dsi84 视频连接错误"},
+      "8018":{"mErrorNameEng":"cypress watchdog timeout","mErrorNameCn":"cypress 触摸心跳超时"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "9000":{"mErrorNameEng":"gnss outage","mErrorNameCn":"gnss中断"},
+      "9001":{"mErrorNameEng":"autoPilot IMU error","mErrorNameCn":"传感器失效"},
+      "9002":{"mErrorNameEng":"Activate fail","mErrorNameCn":"激活失败"},
+      "9003":{"mErrorNameEng":"gnss_outage_warning","mErrorNameCn":"gnss中断预警开启tbox日志输出"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "10000":{"mErrorNameEng":"TBOX No Interface","mErrorNameCn":"没有TBOX网口"},
+      "10001":{"mErrorNameEng":"TBOX No Route","mErrorNameCn":"没有TBOX路由"},
+      "10002":{"mErrorNameEng":"TBOX Interface Down","mErrorNameCn":"TBOX网口处于DOWN状态"},
+      "10003":{"mErrorNameEng":"TBOX Host Down","mErrorNameCn":"TBOX无法连通"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "14000":{"mErrorNameEng":"Connect TBOX timeout","mErrorNameCn":"连接TBOX超时"},
+      "14001":{"mErrorNameEng":"Connect ICM timeout","mErrorNameCn":"连接仪表超时"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "15000":{"mErrorNameEng":"PHY No Interface","mErrorNameCn":"没有以太网网口"},
+      "15001":{"mErrorNameEng":"PHY No Route","mErrorNameCn":"没有以太网路由"},
+      "15002":{"mErrorNameEng":"PHY Interface Down","mErrorNameCn":"以太网网口处于DOWN状态"},
+      "15003":{"mErrorNameEng":"Gateway Down","mErrorNameCn":"TBOX无法连通"},
+      "15700":{"mErrorNameEng":"PHY Link Failure","mErrorNameCn":"PHY链接失败"},
+      "15701":{"mErrorNameEng":"PHY No Skb Buffer","mErrorNameCn":"PHY内核传输缓冲不足"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "16000":{"mErrorNameEng":"Pannel Error","mErrorNameCn":"面板错误"},
+      "16001":{"mErrorNameEng":"Backlight Error","mErrorNameCn":"背光错误"},
+      "16002":{"mErrorNameEng":"FPDLINK unlock Error","mErrorNameCn":"FPDLINK 连接失锁"},
+      "16003":{"mErrorNameEng":"Buck Error","mErrorNameCn":"Buck 电源错误"},
+      "16004":{"mErrorNameEng":"Low voltage","mErrorNameCn":"低电压"},
+      "16005":{"mErrorNameEng":"High voltage","mErrorNameCn":"高电压"},
+      "16008":{"mErrorNameEng":"947 link status","mErrorNameCn":"947连接状态"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "17000":{"mErrorNameEng":"audio codec error","mErrorNameCn":"音频功放错误"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+      "18000":{"mErrorNameEng":"ICM PHY link timeout","mErrorNameCn":"仪表以太网连接超时"}
+    }
+  },
+  {
+    "mErrorCodeList":
+    {
+    }
+  }
+]

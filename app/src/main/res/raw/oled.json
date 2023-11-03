@@ -1,0 +1,26 @@
+[
+  {
+    "btName": "模式一",
+    "CDU_OELD_DynamicModeCfg": 1
+  },
+  {
+    "btName": "模式二",
+    "CDU_OELD_DynamicModeCfg": 2
+  },
+  {
+    "btName": "模式三",
+    "CDU_OELD_DynamicModeCfg": 3
+  },
+  {
+    "btName": "模式四",
+    "CDU_OELD_DynamicModeCfg": 4
+  },
+  {
+    "btName": "模式五",
+    "CDU_OELD_DynamicModeCfg": 5
+  },
+  {
+    "btName": "自定义模式",
+    "CDU_OELD_DynamicModeCfg": 6
+  }
+]

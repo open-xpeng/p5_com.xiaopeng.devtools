@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="32dp" android:layout_centerVertical="true">
+    <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/wlan_address_header" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/wlan_addr_test"/>
+    <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/wlan_show_addr_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="32dp" android:text="@string/wlan_addr" android:layout_toRightOf="@+id/wlan_address_header"/>
+    <TextView android:textSize="@dimen/bluetooth_text" android:gravity="center" android:id="@+id/result_addr_tv" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+</RelativeLayout>

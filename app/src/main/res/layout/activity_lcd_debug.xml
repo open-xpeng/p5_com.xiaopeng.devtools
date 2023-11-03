@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/text_lcd_debug"/>
+    <com.xiaopeng.devtools.view.factorytest.hardwaretest.AdjustIndicator android:id="@+id/lcd_adjust_indicator" android:layout_width="800dp" android:layout_height="30dp" android:layout_marginTop="64dp"/>
+    <SeekBar android:id="@+id/lcd_adjust_seekbar" android:layout_width="800dp" android:layout_height="wrap_content" style="@android:style/Widget.SeekBar"/>
+</LinearLayout>

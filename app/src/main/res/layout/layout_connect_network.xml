@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="32dp" android:layout_centerVertical="true">
+    <TextView android:textSize="@dimen/mobile_network_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/network_connect_header" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/network_connect_test"/>
+    <Button android:id="@+id/network_get_connect_bt" android:layout_width="140dp" android:layout_height="match_parent" android:layout_marginLeft="64dp" android:text="@string/test" android:layout_toRightOf="@+id/network_connect_header" android:layout_centerVertical="true" style="@style/ItemTestButton"/>
+    <TextView android:textSize="@dimen/mobile_network_text" android:gravity="center" android:id="@+id/result_connect_tv" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+</RelativeLayout>

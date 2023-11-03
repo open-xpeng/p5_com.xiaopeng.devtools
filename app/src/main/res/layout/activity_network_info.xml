@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/network_info"/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/title_apn_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apn_info"/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/apn_info" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/title_current_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_network"/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/current_network_info" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/title_neighbour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/neighbour_signal"/>
+    <ListView android:id="@+id/lv_neighbours_signal" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="24dp" android:divider="#00000000" android:dividerHeight="24dp" android:layout_weight="1" android:overScrollMode="never"/>
+</LinearLayout>

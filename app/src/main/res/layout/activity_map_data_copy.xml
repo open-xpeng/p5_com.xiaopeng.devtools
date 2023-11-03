@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="150dp">
+        <Button android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/copy_map_data_bt" android:background="@drawable/selector_btn_common" android:layout_width="448dp" android:layout_height="130dp" android:text="@string/copy_map_data"/>
+        <TextView android:textSize="32sp" android:id="@+id/tv_map_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="150dp">
+        <Button android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/copy_aimedia_data_bt" android:background="@drawable/selector_btn_common" android:layout_width="448dp" android:layout_height="130dp" android:text="@string/copy_ai_media"/>
+        <TextView android:textSize="32sp" android:id="@+id/tv_aimedia_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="150dp">
+        <Button android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/copy_app_bt" android:background="@drawable/selector_btn_common" android:layout_width="448dp" android:layout_height="130dp" android:text="@string/copy_app"/>
+        <TextView android:textSize="32sp" android:id="@+id/tv_app_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp"/>
+    </LinearLayout>
+    <TextView android:textSize="32sp" android:id="@+id/tv_copy_map_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150dp"/>
+    <Button android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/sd_format_bt" android:background="@drawable/selector_btn_common" android:layout_width="448dp" android:layout_height="130dp" android:layout_marginTop="150dp" android:text="@string/format_sd"/>
+</LinearLayout>

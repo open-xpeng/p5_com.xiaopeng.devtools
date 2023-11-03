@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_camera"/>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/action_bar">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="15dp" android:layout_weight="2" android:layout_below="@+id/action_bar">
+            <TextView android:id="@+id/tv_cur_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cur_camera_is" android:layout_alignParentTop="true" style="@style/FactoryTestText"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/layout_change_camera" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_20" android:layout_below="@+id/tv_cur_camera">
+                <Button android:id="@+id/btn_cam0" android:visibility="gone" android:layout_width="match_parent" android:text="@string/test_car_camera_0" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_cam1" android:visibility="gone" android:layout_width="match_parent" android:text="@string/test_car_camera_1" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_cam2" android:visibility="gone" android:layout_width="match_parent" android:text="@string/test_car_camera_2" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_cam3" android:visibility="gone" android:layout_width="match_parent" android:text="@string/test_car_camera_3" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <Button android:id="@+id/btn_take_picture" android:layout_width="match_parent" android:layout_marginTop="@dimen/margin_100" android:text="@string/take_picture" android:layout_below="@+id/layout_change_camera" style="@style/FactoryTestButton"/>
+            <Button android:id="@+id/btn_camera_record" android:layout_width="match_parent" android:layout_marginTop="@dimen/margin_20" android:text="@string/camera_record_start" android:layout_below="@+id/btn_take_picture" style="@style/FactoryTestButton"/>
+        </RelativeLayout>
+        <com.xiaopeng.devtools.view.factorytest.hardwaretest.camera.PreviewFrameLayout android:id="@+id/container_camera" android:paddingLeft="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="800dp" android:layout_weight="1">
+            <SurfaceView android:id="@+id/camera_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.xiaopeng.devtools.view.factorytest.hardwaretest.camera.PreviewFrameLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/layout_factory_test_common" layout="@layout/layout_factory_test_common"/>
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

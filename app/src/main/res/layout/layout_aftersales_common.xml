@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/layout_aftersales_common" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@android:color/holo_red_light" android:layout_width="match_parent" android:layout_height="3dp" android:layout_marginTop="5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/btn_pc_tool" android:text="@string/pc_tool" android:layout_weight="1" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_log" android:text="@string/log" android:layout_weight="1" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_common_cmd" android:text="@string/common_cmd" android:layout_weight="1" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_recovery" android:text="@string/recovery" android:layout_weight="1" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_reboot" android:text="@string/reboot_func" android:layout_weight="1" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_udisk_sh" android:text="@string/run_encrypt_sh" android:layout_weight="1" style="@style/FactoryTestButton"/>
+    </LinearLayout>
+</LinearLayout>

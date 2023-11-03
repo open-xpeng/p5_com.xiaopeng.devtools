@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="64dp" android:layout_centerVertical="true">
+    <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@+id/scan_device_name_tv" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_alignParentLeft="true"/>
+    <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@+id/scan_device_address_tv" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/scan_device_name_tv"/>
+    <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@+id/scan_device_rssi_tv" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/scan_device_address_tv"/>
+    <TextView android:textSize="@dimen/bluetooth_text" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@+id/scan_device_pair_tv" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginRight="20dp" android:layout_alignParentRight="true"/>
+</RelativeLayout>

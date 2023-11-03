@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="can_select">
+        <item>CAN1</item>
+        <item>CAN2</item>
+    </array>
+    <array name="ecu">
+        <item>BCM_VERSION:</item>
+        <item>TPMS_VERSION:</item>
+        <item>SCU_VERSION:</item>
+        <item>PEPS_VERSION:</item>
+        <item>OCU_VERSION:</item>
+        <item>AVM_VERSION:</item>
+        <item>MSM_VERSION:</item>
+        <item>OLED_VERSION:</item>
+        <item>BMS_VERSION:</item>
+        <item>IPU_VERSION:</item>
+        <item>HVAC_VERSION:</item>
+    </array>
+    <array name="ecu_sys">
+        <item>sys.ECU_BCM.version</item>
+        <item>sys.ECU_TPMS.version</item>
+        <item>sys.ECU_SCU.version</item>
+        <item>sys.ECU_PEPS.version</item>
+        <item>sys.ECU_OCU.version</item>
+        <item>sys.ECU_AVM.version</item>
+        <item>sys.ECU_MSM.version</item>
+        <item>sys.ECU_OLED.version</item>
+        <item>sys.ECU_BMS.version</item>
+        <item>sys.ECU_IPU.version</item>
+        <item>sys.ECU_HVAC.version</item>
+    </array>
+    <array name="oled_note">
+        <item>SW</item>
+        <item>SN</item>
+        <item>XW</item>
+        <item>XN</item>
+    </array>
+    <array name="period_select">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+    </array>
+    <array name="show_status">
+        <item>麦克风状态：</item>
+        <item>导航天线状态：</item>
+        <item>收音天线状态：</item>
+        <item>大屏机内温度：</item>
+        <item>总输入电源电压：</item>
+        <item>当前车速：</item>
+        <item>车速PWM输出：</item>
+    </array>
+    <array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </array>
+    <array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>静态</item>
+    </array>
+    <array name="wifi_peap_phase2_entries">
+        <item>无</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="wifi_phase2_entries">
+        <item>无</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="wifi_proxy_settings">
+        <item>无</item>
+        <item>手动</item>
+    </array>
+    <array name="wifi_signal">
+        <item>弱</item>
+        <item>一般</item>
+        <item>较强</item>
+        <item>强</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在进行身份验证...</item>
+        <item>正在获取 IP 地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已阻止</item>
+        <item>暂时关闭（网络状况不佳）</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从 %1$s 获取 IP 地址...</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已阻止</item>
+        <item>暂时关闭（网络状况不佳）</item>
+    </array>
+</resources>

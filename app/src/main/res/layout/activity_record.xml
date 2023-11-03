@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_record"/>
+    <RelativeLayout android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/action_bar">
+        <Button android:id="@+id/btn_record_start" android:layout_width="match_parent" android:text="@string/record_start" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_record_stop" android:layout_width="match_parent" android:text="@string/record_stop" android:layout_below="@+id/btn_record_start" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_record_play" android:layout_width="match_parent" android:text="@string/record_play" android:layout_below="@+id/btn_record_stop" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_record_stop_play" android:layout_width="match_parent" android:text="@string/stop_play" android:layout_below="@+id/btn_record_play" style="@style/FactoryTestButton"/>
+        <Button android:enabled="false" android:textSize="20sp" android:textColor="@drawable/text_color_1" android:id="@+id/btn_copy_media" android:background="@drawable/btn_background" android:layout_width="240dp" android:layout_height="100dp" android:layout_marginTop="240dp" android:text="@string/record_copy_media" android:layout_below="@+id/btn_record_stop_play" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/tv_copy_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_below="@+id/btn_copy_media" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/layout_factory_test_common" layout="@layout/layout_factory_test_common"/>
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

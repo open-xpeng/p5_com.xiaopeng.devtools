@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size android:height="@dimen/touch_item_width" android:width="@dimen/touch_item_width"/>
+    <solid android:color="@android:color/darker_gray"/>
+    <stroke android:width="@dimen/touch_item_stroke" android:color="@android:color/white"/>
+</shape>

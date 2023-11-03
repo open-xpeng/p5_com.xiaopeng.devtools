@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyguardAppWidgetItem" parent="">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Theme.CreateShortCut" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="setup_wizard_button" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:minWidth">208dp</item>
+    </style>
+    <style name="wifi_item" parent="">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">32dp</item>
+    </style>
+    <style name="wifi_item_content" parent="">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">8</item>
+    </style>
+    <style name="wifi_item_edit_content" parent="">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:background">@drawable/img_passwd_bg</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:textCursorDrawable">@drawable/img_cursor_02</item>
+    </style>
+    <style name="wifi_item_label" parent="">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+</resources>

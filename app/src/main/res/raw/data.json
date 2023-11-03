@@ -1,0 +1,134 @@
+[
+  {
+    "btName": "开始记录",
+    "testStart": 1,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "结束记录",
+    "testStart": 0,
+    "testEnd": 1,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "示教再现",
+    "testStart": 0,
+    "testEnd": 0,
+    "testPathRea": 1,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "大屏泊车",
+    "testStart": 0,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 1,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "里程计清零",
+    "testStart": 0,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 1,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "准备就绪",
+    "testStart": 0,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 0,
+    "test6": 1,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "RAM",
+    "testStart": 0,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 1,
+    "test8": 0
+  },
+  {
+    "btName": "EEPROM",
+    "testStart": 0,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 1
+  },
+  {
+    "btName": "进入退出召唤",
+    "testStart": 1,
+    "testEnd": 1,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "召唤向前",
+    "testStart": 1,
+    "testEnd": 0,
+    "testPathRea": 1,
+    "test4": 0,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "召唤向后",
+    "testStart": 1,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 1,
+    "test5": 0,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  },
+  {
+    "btName": "手机泊车",
+    "testStart": 1,
+    "testEnd": 0,
+    "testPathRea": 0,
+    "test4": 0,
+    "test5": 1,
+    "test6": 0,
+    "test7": 0,
+    "test8": 0
+  }
+]

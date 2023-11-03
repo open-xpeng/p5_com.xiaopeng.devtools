@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:centerTextResId="@string/repair_mode_title"/>
+    <CheckBox android:textSize="30sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/repair_mode_onoff" android:background="@drawable/selector_btn_common" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="30dp" android:button="@drawable/check_box" android:text="@string/repair_mode_onoff"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/loading_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="250dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/iv_loading" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/anim_loading_ttwg"/>
+        <TextView android:textSize="@dimen/height_35" android:textColor="@color/button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/height_35" android:text="@string/repair_mode_changing"/>
+    </LinearLayout>
+</LinearLayout>

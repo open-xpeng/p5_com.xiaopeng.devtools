@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_factory_test" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/hardware_test"/>
+    <ScrollView android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/action_bar" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_quiet" android:text="@string/test_quiet" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_face" android:visibility="gone" android:text="@string/test_car_driving_recorder" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_camera" android:text="@string/test_camera" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_wifi" android:text="@string/test_wifi" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_bt" android:text="@string/test_bt" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_gps" android:text="@string/test_gps" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_sound" android:text="@string/test_sound" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_record" android:text="@string/test_record" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_usb" android:text="@string/test_usb" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_back_light" android:text="@string/test_back_light" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_radio" android:text="@string/test_radio" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_4g" android:text="@string/test_4g" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_ota" android:text="@string/test_ota" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_car_window" android:text="@string/test_car_window" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_charging_port" android:text="@string/test_charging_port" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_back_trunk" android:text="@string/test_back_trunk" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_chair" android:text="@string/test_chair" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_car_lamp" android:text="@string/test_car_lamp" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_car_mode" android:text="@string/test_mode" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_music" android:text="@string/test_music" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_bt_phone" android:text="@string/test_bt_phone" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_speech_recognition" android:text="@string/test_speech_recognition" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_air_conditioner" android:text="@string/test_air_conditioner" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_rtc" android:text="@string/test_rtc" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_touch_screen" android:text="@string/test_touch_screen" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_sdcard" android:text="@string/test_sdcard" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_rgb" android:text="@string/test_rgb" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_eeprom" android:text="@string/test_eeprom" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_can" android:text="@string/test_can" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_psu" android:visibility="gone" android:text="@string/test_psu" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_sensor" android:text="@string/test_sensor" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_battery" android:visibility="gone" android:text="@string/test_battery" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/btn_test_blower_power" android:text="@string/text_blower_power" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_show_key_device_info" android:text="@string/show_key_device_info" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_test_report" android:text="@string/test_report" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/btn_recovery" android:text="@string/recovery" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

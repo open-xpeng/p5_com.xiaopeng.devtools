@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tableLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/button_row"/>
+    <TextView android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/text_showByte" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:textSize="20sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/edit_text" android:background="@drawable/edit_background" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@+id/spinner_period" android:layout_width="100dp" android:layout_height="wrap_content"/>
+        <Button android:textColor="@android:color/white" android:id="@+id/period_event" android:layout_width="400dp" android:layout_height="100dp" android:text="@string/event"/>
+        <Button android:textColor="@android:color/white" android:id="@+id/btn_generateByte" android:layout_width="400dp" android:layout_height="100dp" android:text="@string/generateByte"/>
+        <Spinner android:id="@+id/spinner_can" android:layout_width="100dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</TableLayout>

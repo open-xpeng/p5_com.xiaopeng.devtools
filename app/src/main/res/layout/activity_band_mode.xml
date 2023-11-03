@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/band_mode"/>
+    <ScrollView android:id="@+id/scrollview" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="500dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/title_gsm_band" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsm_band_mode"/>
+            <ListView android:id="@+id/lv_gsm_band" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginTop="24dp" android:divider="#00000000" android:dividerHeight="2dp" android:layout_weight="1" android:overScrollMode="never"/>
+            <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/title_umts_band" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/umts_band_mode"/>
+            <ListView android:id="@+id/lv_umts_band" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="300dp" android:layout_marginTop="24dp" android:divider="#00000000" android:dividerHeight="2dp" android:layout_weight="1" android:overScrollMode="never"/>
+            <TextView android:textSize="@dimen/common_txt_size" android:textStyle="bold" android:id="@+id/title_lte_band" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_band_mode"/>
+            <ListView android:id="@+id/lv_lte_band" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="650dp" android:layout_marginTop="24dp" android:divider="#00000000" android:dividerHeight="2dp" android:layout_weight="1" android:overScrollMode="never"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+        <Button android:id="@+id/btn_set_modem_band" android:text="@string/set_band_mode" style="@style/FactoryTestButton"/>
+    </LinearLayout>
+</LinearLayout>

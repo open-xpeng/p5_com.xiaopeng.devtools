@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_four_gpower" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/text_4g_power"/>
+    <com.xiaopeng.devtools.view.factorytest.powertest.MyPowerView android:id="@+id/view_power_test" android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/action_bar"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true" layout="@layout/layout_factory_test_common"/>
+</RelativeLayout>

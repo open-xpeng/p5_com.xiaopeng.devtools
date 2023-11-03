@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/rl_rgb" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_rgb"/>
+    <RelativeLayout android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/action_bar">
+        <Button android:id="@+id/btn_rgb_red" android:layout_width="match_parent" android:text="@string/rgb_red" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_rgb_green" android:layout_width="match_parent" android:text="@string/rgb_green" android:layout_below="@+id/btn_rgb_red" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_rgb_blue" android:layout_width="match_parent" android:text="@string/rgb_blue" android:layout_below="@+id/btn_rgb_green" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_rgb_white" android:layout_width="match_parent" android:text="@string/rgb_white" android:layout_below="@+id/btn_rgb_blue" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_rgb_gray" android:layout_width="match_parent" android:text="@string/rgb_gray" android:layout_below="@+id/btn_rgb_white" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_rgb_black" android:layout_width="match_parent" android:text="@string/rgb_black" android:layout_below="@+id/btn_rgb_gray" style="@style/FactoryTestButton"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/include_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/layout_factory_test_common" layout="@layout/layout_factory_test_common"/>
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

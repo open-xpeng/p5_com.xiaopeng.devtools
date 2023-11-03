@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_radio"/>
+    <RelativeLayout android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/action_bar">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_fm_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.xiaopeng.devtools.view.factorytest.hardwaretest.radio.LongClickButton android:id="@+id/btn_fm_last" android:layout_width="wrap_content" android:text="@string/radio_fm_last" style="@style/FactoryTestButton"/>
+            <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/holo_blue_dark" android:gravity="center" android:id="@+id/txt_fm_channel" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.xiaopeng.devtools.view.factorytest.hardwaretest.radio.LongClickButton android:id="@+id/btn_fm_next" android:layout_width="wrap_content" android:text="@string/radio_fm_next" style="@style/FactoryTestButton"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_am_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ll_fm_content">
+            <com.xiaopeng.devtools.view.factorytest.hardwaretest.radio.LongClickButton android:id="@+id/btn_am_last" android:layout_width="wrap_content" android:text="@string/radio_am_last" style="@style/FactoryTestButton"/>
+            <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/holo_blue_dark" android:gravity="center" android:id="@+id/txt_am_channel" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.xiaopeng.devtools.view.factorytest.hardwaretest.radio.LongClickButton android:id="@+id/btn_am_next" android:layout_width="wrap_content" android:text="@string/radio_am_next" style="@style/FactoryTestButton"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_volume_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ll_am_content">
+            <Button android:id="@+id/btn_volume_decrease" android:layout_width="wrap_content" android:text="@string/radio_volume_decrease" style="@style/FactoryTestButton"/>
+            <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/holo_blue_dark" android:gravity="center" android:id="@+id/tv_current_volume" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <Button android:id="@+id/btn_volume_increase" android:layout_width="wrap_content" android:text="@string/radio_volume_increase" style="@style/FactoryTestButton"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_station_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ll_volume_content">
+            <Button android:id="@+id/btn_last_station" android:layout_width="wrap_content" android:text="@string/radio_last_station" style="@style/FactoryTestButton"/>
+            <Button android:id="@+id/btn_next_station" android:layout_width="wrap_content" android:text="@string/radio_next_station" style="@style/FactoryTestButton"/>
+        </LinearLayout>
+        <Button android:id="@+id/btn_change_band" android:layout_width="match_parent" android:text="@string/radio_fm_band" android:layout_below="@+id/ll_station_content" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_radio_scan" android:layout_width="match_parent" android:text="@string/radio_scan" android:layout_below="@+id/btn_change_band" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_radio_stop_scan" android:layout_width="match_parent" android:text="@string/radio_stop_scan" android:layout_below="@+id/btn_radio_scan" style="@style/FactoryTestButton"/>
+        <TextView android:textSize="@dimen/common_txt_size" android:id="@+id/txt_radio_result" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_20" android:layout_below="@+id/btn_radio_stop_scan"/>
+    </RelativeLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true" layout="@layout/layout_factory_test_common"/>
+</RelativeLayout>

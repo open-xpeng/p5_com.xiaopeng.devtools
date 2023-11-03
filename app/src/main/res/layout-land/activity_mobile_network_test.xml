@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_mobile_network_test" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_4g"/>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/padding_top_content" android:paddingBottom="@dimen/padding_10" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/layout_common" android:layout_below="@+id/action_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <include layout="@layout/layout_sim_module"/>
+            <include layout="@layout/layout_sim_status"/>
+            <include layout="@layout/layout_sim_id"/>
+            <include layout="@layout/layout_sim_signal_strengths"/>
+            <include layout="@layout/layout_connect_network"/>
+            <include layout="@layout/layout_ping_network"/>
+            <include layout="@layout/layout_ping_tbox"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/mobile_network_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/network_connect_info_tv" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/layout_factory_test_common" layout="@layout/layout_factory_test_common"/>
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

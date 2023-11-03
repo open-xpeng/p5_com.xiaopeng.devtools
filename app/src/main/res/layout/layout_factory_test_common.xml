@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/btn_test_succeed" android:text="@string/test_succeed" android:layout_weight="1" style="@style/FactoryTestButton"/>
+    <Button android:id="@+id/btn_test_fail" android:text="@string/test_fail" android:layout_weight="1" style="@style/FactoryTestButton"/>
+    <Button android:id="@+id/btn_test_next" android:visibility="gone" android:text="@string/test_next" android:layout_weight="1" style="@style/FactoryTestButton"/>
+</LinearLayout>

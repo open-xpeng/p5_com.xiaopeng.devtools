@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XToastTextStyle" parent="@style/XToastTextStyleBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxWidth">2100dp</item>
+        <item name="android:minWidth">@dimen/x_toast_width</item>
+    </style>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="audio_pcm_dump_param">
+        <item>无配置(0)</item>
+        <item>音乐播放(1537)</item>
+        <item>非音乐播放(2561)</item>
+        <item>录音(小P识别)(288)</item>
+        <item>蓝牙通话下行(4096)</item>
+        <item>蓝牙通话上行(8192)</item>
+    </array>
+    <array name="can_select">
+        <item>CAN1</item>
+        <item>CAN2</item>
+    </array>
+    <array name="diagnosis_module_name">
+        <item>音频</item>
+        <item>摄像头</item>
+        <item>蓝牙</item>
+        <item>WIFI</item>
+        <item>PSO</item>
+        <item>LIB HTTP</item>
+        <item>SOC</item>
+        <item>屏幕</item>
+        <item>导航</item>
+        <item>4G</item>
+        <item>存储芯片</item>
+        <item>电源</item>
+        <item>USB</item>
+        <item>CARSERVICE</item>
+        <item>以太网</item>
+        <item>仪表屏幕</item>
+        <item>仪表音频</item>
+        <item>仪表以太网</item>
+        <item>仪表系统</item>
+    </array>
+    <array name="drive_mode">
+        <item>标准</item>
+        <item>运动</item>
+        <item>经济</item>
+        <item>节能</item>
+    </array>
+    <array name="ecu">
+        <item>BCM_VERSION:</item>
+        <item>TPMS_VERSION:</item>
+        <item>SCU_VERSION:</item>
+        <item>PEPS_VERSION:</item>
+        <item>OCU_VERSION:</item>
+        <item>AVM_VERSION:</item>
+        <item>MSM_VERSION:</item>
+        <item>OLED_VERSION:</item>
+        <item>BMS_VERSION:</item>
+        <item>IPU_VERSION:</item>
+        <item>HVAC_VERSION:</item>
+    </array>
+    <array name="ecu_sys">
+        <item>sys.ECU_BCM.version</item>
+        <item>sys.ECU_TPMS.version</item>
+        <item>sys.ECU_SCU.version</item>
+        <item>sys.ECU_PEPS.version</item>
+        <item>sys.ECU_OCU.version</item>
+        <item>sys.ECU_AVM.version</item>
+        <item>sys.ECU_MSM.version</item>
+        <item>sys.ECU_OLED.version</item>
+        <item>sys.ECU_BMS.version</item>
+        <item>sys.ECU_IPU.version</item>
+        <item>sys.ECU_HVAC.version</item>
+    </array>
+    <array name="log_levels">
+        <item>输出VERBOSE及以上日志</item>
+        <item>输出DEBUG及以上日志</item>
+        <item>输出INFO及以上日志</item>
+        <item>输出WARN及以上日志</item>
+        <item>输出ERROR及以上日志</item>
+        <item>输出ASSERT日志</item>
+        <item>屏蔽所有日志输出</item>
+    </array>
+    <array name="oled_note">
+        <item>SW</item>
+        <item>SN</item>
+        <item>XW</item>
+        <item>XN</item>
+    </array>
+    <array name="period_select">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+    </array>
+    <array name="show_status">
+        <item>麦克风状态：</item>
+        <item>导航天线状态：</item>
+        <item>收音天线状态：</item>
+        <item>大屏机内温度：</item>
+        <item>总输入电源电压：</item>
+        <item>当前车速：</item>
+        <item>车速PWM输出：</item>
+    </array>
+    <array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </array>
+    <array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </array>
+    <array name="wifi_peap_phase2_entries">
+        <item>None</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="wifi_phase2_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="wifi_proxy_settings">
+        <item>None</item>
+        <item>Manual</item>
+    </array>
+    <array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
+    </array>
+    <array name="wifi_signal">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </array>
+    <array name="x_quick_side_bar_letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </array>
+</resources>

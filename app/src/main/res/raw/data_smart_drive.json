@@ -1,0 +1,66 @@
+[
+  {
+    "btName": "开始记录",
+    "CDU_SCU_Test": 1
+  },
+  {
+    "btName": "结束记录",
+    "CDU_SCU_Test": 2
+  },
+  {
+    "btName": "示教再现",
+    "CDU_SCU_Test": 4
+  },
+  {
+    "btName": "大屏出库",
+    "CDU_SCU_Test": 8
+  },
+  {
+    "btName": "里程计清零",
+    "CDU_SCU_Test": 16
+  },
+  {
+    "btName": "准备就绪",
+    "CDU_SCU_Test": 32
+  },
+  {
+    "btName": "SCU复位",
+    "CDU_SCU_Test": 3
+  },
+  {
+    "btName": "EEPROM清零",
+    "CDU_SCU_Test": 128
+  },
+  {
+    "btName": "TestNone",
+    "CDU_SCU_Test": 0
+  },
+  {
+    "btName": "泊车统计数据",
+    "CDU_SCU_Test": 5
+  },
+  {
+    "btName": "车位信息",
+    "CDU_SCU_Test": 6
+  },
+  {
+    "btName": "AutoRoad状态",
+    "CDU_SCU_Test": 7
+  },
+  {
+    "btName": "AutoRoad车辆位置",
+    "CDU_SCU_Test": 9
+  },
+  {
+    "btName": "TEST3按钮",
+    "CDU_SCU_Test": 10
+  },
+  {
+    "btName": "TEST4按钮",
+    "CDU_SCU_Test": 11
+  },
+  {
+    "btName": "TEST5按钮",
+    "CDU_SCU_Test": 12
+  }
+]

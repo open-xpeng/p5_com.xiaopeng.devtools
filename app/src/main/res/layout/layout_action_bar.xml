@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_container_choose" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+    <ImageButton android:id="@+id/ib_back" android:background="@drawable/selector_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:id="@+id/text_view_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/style_text_10"/>
+    <TextView android:id="@+id/text_view_center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/style_text_10"/>
+    <ImageButton android:id="@+id/ib_action_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <View android:id="@+id/view_line_bottom" android:background="@color/color_535162" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="0dp" android:layout_below="@+id/ib_back"/>
+</RelativeLayout>

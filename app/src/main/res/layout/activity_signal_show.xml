@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/text_test_signal"/>
+    <ScrollView android:paddingLeft="30dp" android:paddingRight="30dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <fragment android:name="com.xiaopeng.devtools.view.signal.NetPerformanceFragment" android:id="@+id/net_performance_fragment" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_weight="1"/>
+            <fragment android:name="com.xiaopeng.devtools.view.signal.GpsPerformanceFragment" android:id="@+id/gps_performance_fragment" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <fragment android:name="com.xiaopeng.devtools.view.signal.FmPerformanceFragment" android:id="@+id/fm_performance_fragment" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <fragment android:name="com.xiaopeng.devtools.view.signal.WifiBtPerformanceFragment" android:id="@+id/wifi_performance_fragment" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/color_969696" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp"/>
+    <RelativeLayout android:paddingLeft="75dp" android:paddingRight="75dp" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginTop="10dp">
+        <Button android:textSize="24sp" android:textColor="#000000" android:id="@+id/bt_sync" android:background="@drawable/btn_background" android:layout_width="145dp" android:layout_height="65dp" android:text="@string/text_sync_soon" android:layout_centerVertical="true"/>
+        <TextView android:textSize="30sp" android:textColor="@color/color_808A87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/text_sync_switch" android:layout_toLeftOf="@+id/switch_sync" android:layout_centerVertical="true"/>
+        <com.kyleduo.switchbutton.SwitchButton android:id="@+id/switch_sync" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:kswBackDrawable="@drawable/selector_bg_switch" app:kswThumbDrawable="@drawable/selector_thumb_switch" app:kswThumbHeight="40dp" app:kswThumbWidth="40dp"/>
+    </RelativeLayout>
+</LinearLayout>

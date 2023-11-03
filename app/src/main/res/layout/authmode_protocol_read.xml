@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginEnd="@dimen/authmode_dialog_margin" style="@style/XDialogContentScrollViewStyle">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/protocol_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:vuiMode="DISABLED"/>
+    </com.xiaopeng.xui.widget.XScrollView>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/authmode_dialog_margin">
+        <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/checkboxbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_read_content"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:id="@+id/agreement_privacy" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_privacy_content" android:layout_alignBaseline="@+id/checkboxbtn" android:layout_toEndOf="@+id/checkboxbtn"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:centerTextResId="@string/navi_activate"/>
+    <LinearLayout android:gravity="center" android:id="@+id/layout_uuid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:layout_below="@+id/action_bar">
+        <TextView android:textSize="32sp" android:id="@+id/tv_uuid_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navi_uuid"/>
+        <TextView android:textSize="32sp" android:id="@+id/tv_uuid_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <Button android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/bt_get_uuid" android:background="@drawable/selector_btn_common" android:layout_width="700dp" android:layout_height="130dp" android:layout_marginTop="200dp" android:text="@string/get_navi_uuid" android:layout_below="@+id/layout_uuid" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

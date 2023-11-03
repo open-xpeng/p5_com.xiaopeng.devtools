@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_brightness_test" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="20sp" android:textColor="@drawable/text_color" android:id="@+id/btn_bright_down" android:background="@drawable/selector_btn_common" android:layout_width="160dp" android:layout_height="80dp" android:layout_marginLeft="180dp" android:layout_marginTop="77dp" android:text="@string/text_bright_down" android:layout_below="@+id/layout_adjust_bright"/>
+    <Button android:textSize="20sp" android:textColor="@drawable/text_color" android:id="@+id/btn_bright_up" android:background="@drawable/selector_btn_common" android:layout_width="160dp" android:layout_height="80dp" android:layout_marginRight="180dp" android:text="@string/text_bright_up" android:layout_alignTop="@+id/btn_bright_down" android:layout_alignParentRight="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_adjust_bright" android:paddingTop="64dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/action_bar">
+        <SeekBar android:layout_gravity="center" android:id="@+id/brightness_seekbar" android:layout_width="800dp" android:layout_height="wrap_content" style="@android:style/Widget.SeekBar"/>
+        <TextView android:textSize="64dp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/brightness_test"/>
+        <com.xiaopeng.devtools.view.factorytest.hardwaretest.AdjustIndicator android:layout_gravity="center_horizontal" android:id="@+id/brightness_adjust_indicator" android:layout_width="800dp" android:layout_height="30dp" android:layout_marginTop="100dp"/>
+    </LinearLayout>
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_back_light"/>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/layout_factory_test_common" layout="@layout/layout_factory_test_common"/>
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

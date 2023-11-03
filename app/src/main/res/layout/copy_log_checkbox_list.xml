@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/checkbox_android_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/android_log"/>
+    <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/checkbox_navi_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navi_log"/>
+    <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/checkbox_icm_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icm_log"/>
+    <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/checkbox_tbox_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tbox_log"/>
+    <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/checkbox_modem_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modem_log"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

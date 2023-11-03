@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="x_letter_spacing">0</dimen>
+    <dimen name="x_list_multiple_text_sub_padding_top_for_two">6dp</dimen>
+    <dimen name="x_list_two_text_margin">24dp</dimen>
+    <dimen name="x_list_two_text_sub_margin_top">65dp</dimen>
+</resources>

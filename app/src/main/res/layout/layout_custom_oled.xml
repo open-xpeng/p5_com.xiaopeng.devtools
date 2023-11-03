@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="420dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/drawable_oled_bg" android:paddingLeft="90dp" android:paddingRight="90dp" android:layout_width="match_parent" android:layout_height="420dp" android:layout_marginLeft="90dp" android:layout_marginTop="48dp" android:layout_marginRight="90dp">
+        <TextView android:textSize="30sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_custom_oled"/>
+        <Spinner android:entries="@array/show_status" android:id="@+id/spinner_music_book" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="60dp" android:spinnerMode="dropdown"/>
+        <Spinner android:entries="@array/show_status" android:id="@+id/spinner_music_note" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="32dp" android:spinnerMode="dropdown"/>
+        <Button android:textSize="20sp" android:textColor="@drawable/text_color" android:id="@+id/btn_play" android:background="@drawable/selector_btn_common" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginTop="50dp" android:text="@string/radio_play"/>
+    </LinearLayout>
+</LinearLayout>

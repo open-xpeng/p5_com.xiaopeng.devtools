@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/nation_new_energy_car_detection"/>
+    <ScrollView android:paddingTop="@dimen/padding_top_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/action_bar" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                        <TextView android:textSize="@dimen/mobile_network_text" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="50dp" android:layout_marginLeft="10dp" android:text="@string/nation_detection_ip"/>
+                        <EditText android:textSize="@dimen/mobile_network_text" android:id="@+id/et_ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:ems="8" android:layout_centerVertical="true" android:inputType="text"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                        <TextView android:textSize="@dimen/mobile_network_text" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="50dp" android:layout_marginLeft="112dp" android:text="@string/nation_detection_nds_port"/>
+                        <EditText android:textSize="@dimen/mobile_network_text" android:id="@+id/et_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:ems="8" android:layout_centerVertical="true" android:inputType="text"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:textSize="20dp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/btn_connect" android:background="@drawable/btn_background" android:layout_width="260dp" android:layout_height="100dp" android:layout_marginLeft="64dp" android:text="@string/nation_detection_create_connection"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/car_login" android:text="@string/nation_detection_car_login" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/platform_login" android:text="@string/nation_detection_platform_login" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/data_collect" android:text="@string/nation_detection_data_collect" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/data_reissue" android:text="@string/nation_detection_data_reissue" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/reserved_1" android:text="@string/nation_detection_reserved_1" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/reserved_2" android:text="@string/nation_detection_reserved_2" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/reserved_3" android:text="@string/nation_detection_reserved_3" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/reserved_4" android:text="@string/nation_detection_reserved_4" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FactoryTestRow">
+                <Button android:id="@+id/tbox_offline" android:text="@string/nation_detection_tbox_offline" style="@style/FactoryTestButton"/>
+                <Button android:id="@+id/alarm_simulate" android:text="@string/nation_detection_alarm_simulate" style="@style/FactoryTestButton"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

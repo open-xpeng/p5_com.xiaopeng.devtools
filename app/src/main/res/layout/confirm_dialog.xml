@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_dialog_root" android:background="@color/float_transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/view_dialog_content" android:background="@drawable/confirm_dialog" android:layout_width="900dp" android:layout_height="560dp" android:layout_centerInParent="true">
+        <ImageButton android:id="@+id/ib_close" android:background="@drawable/ic_close" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="30dp" android:layout_marginTop="30dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:id="@+id/text_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_50" android:layout_centerHorizontal="true" style="@style/TextStyle1"/>
+        <View android:layout_gravity="top" android:id="@+id/view_line_1" android:background="@color/color_bfc0c1" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/text_view_title"/>
+        <LinearLayout android:gravity="center_horizontal" android:id="@+id/view_container_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/view_line_1">
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@+id/text_view_content" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="130dp" android:layout_marginRight="130dp" android:layout_marginBottom="120dp" android:lineSpacingExtra="5dp" style="@style/TextStyle4"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginRight="150dp" android:layout_marginBottom="60dp" android:layout_alignParentBottom="true">
+            <Button android:gravity="center" android:id="@+id/btn_confirm" android:text="@string/confirm" style="@style/style_short_blue_btn"/>
+            <View android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="1dp"/>
+            <Button android:gravity="center" android:id="@+id/btn_cancel" android:text="@string/cancel" style="@style/style_short_white_btn_blue_stoke"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

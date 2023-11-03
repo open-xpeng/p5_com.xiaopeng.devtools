@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/btn_hot_reboot" android:text="@string/gps_hot_reboot" android:layout_weight="1" style="@style/FactoryTestButton"/>
+    <Button android:id="@+id/btn_warm_reboot" android:text="@string/gps_warm_reboot" android:layout_weight="1" style="@style/FactoryTestButton"/>
+    <Button android:id="@+id/btn_cold_reboot" android:text="@string/gps_cold_reboot" android:layout_weight="1" style="@style/FactoryTestButton"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="64dp" android:layout_centerVertical="true">
+    <TextView android:textSize="@dimen/wlan_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/wlan_on_off_header" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/wlan_on_off_test"/>
+    <Switch android:id="@+id/switch_wlan_on_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64dp" android:textOn="@string/switch_on" android:textOff="@string/switch_off" android:layout_toRightOf="@+id/wlan_on_off_header" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@dimen/wlan_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/wifi_on_off_status" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="32dp" android:layout_toRightOf="@+id/switch_wlan_on_off"/>
+    <TextView android:textSize="@dimen/wlan_text" android:gravity="center" android:id="@+id/result_on_off_tv" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+</RelativeLayout>

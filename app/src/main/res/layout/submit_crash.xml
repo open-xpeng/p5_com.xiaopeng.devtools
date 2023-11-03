@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="?android:attr/dividerHorizontal" android:animateLayoutChanges="true" android:showDividers="middle">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit_crash_report"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="16sp" android:typeface="sans" android:textStyle="bold" android:id="@+id/textView2" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_subject"/>
+        <TextView android:id="@+id/subject" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight"/>
+        <TextView android:textSize="16sp" android:typeface="sans" android:textStyle="bold" android:id="@+id/textView4" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_crash_log"/>
+        <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:typeface="monospace" android:id="@+id/content" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/no_network_warning" android:background="#66d84a45" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="24dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold" android:gravity="center" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/network_unavailable"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+        <Button android:id="@+id/cancel" android:layout_width="0dp" android:layout_height="match_parent" android:text="@android:string/cancel" android:layout_weight="1" style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:enabled="false" android:id="@+id/submit" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/submit" android:layout_weight="1" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

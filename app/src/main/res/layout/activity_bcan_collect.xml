@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:centerTextResId="@string/drive_bcan_collect"/>
+    <Button android:textSize="30sp" android:textColor="@drawable/text_color" android:id="@+id/btn_start_collect" android:background="@drawable/selector_btn_common" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="30dp" android:text="@string/start_collect_adas" android:layout_below="@+id/action_bar"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_bcan_option" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/btn_start_collect" style="@style/FactoryTestRow">
+        <Button android:id="@+id/btn_continue_collect" android:text="@string/continue_collect_log" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_upload_log" android:text="@string/upload_log" style="@style/FactoryTestButton"/>
+        <Button android:id="@+id/btn_cancel_continue" android:text="@string/cancel" style="@style/FactoryTestButton"/>
+    </LinearLayout>
+    <com.xiaopeng.devtools.view.smartdrive.bcan.TimeCountView android:textSize="30sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@+id/tv_show_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp"/>
+</LinearLayout>

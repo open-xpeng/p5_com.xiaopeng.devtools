@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="2" android:versionName="2.0" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.xiaopeng.devtools" platformBuildVersionCode="2" platformBuildVersionName="2">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_STACK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.CONFIGURE_WIFI_DISPLAY"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_NETWORK_SCORES"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_MAP"/>
+    <uses-permission android:name="android.permission.DUMP"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.NET_ADMIN"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.NET_TUNNELING"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <uses-permission android:name="android.permission.TETHER_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.MANAGE_APP_OPS_MODES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.REGISTER_SIM_SUBSCRIPTION"/>
+    <uses-permission android:name="com.xiaopeng.permission.SERVICE"/>
+    <uses-permission android:name="com.xiaopeng.permission.BROADCAST"/>
+    <uses-permission android:name="com.xiaopeng.permission.ACTIVITY"/>
+    <uses-permission android:name="android.permission.XPENG_USB"/>
+    <uses-permission android:name="com.xiaopeng.permission.IPC"/>
+    <permission android:name="com.android.permission.SEND_FACTORY_SECRET_CODE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.xiaopeng.permission.SYSTEM_DELEGATE"/>
+    <uses-permission android:name="com.xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/factory_test" android:name="com.xiaopeng.devtools.MyApplication" android:debuggable="true" android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="true">
+        <provider android:name="com.activeandroid.content.ContentProvider" android:enabled="true" android:exported="false" android:authorities="com.xiaopeng.devtools"/>
+        <service android:name="com.xiaopeng.lib.framework.ipcmodule.AgentService" android:permission="com.xiaopeng.permission.SERVICE" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.ipc.AgentService"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.xiaopeng.devtools.view.modemui.ModemUiActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.usersettings.UserSettingsActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.NavTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:label="@string/app_name" android:name="com.xiaopeng.devtools.view.main.MainActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/vnd.android.bugreport"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth" android:name="com.xiaopeng.devtools.view.CrashFeedbackActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc">
+            <intent-filter>
+                <action android:name="android.intent.action.APP_ERROR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xiaopeng.devtools.view.log.GrabLogActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.MapDataCopyActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.debug.GpsDebugActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.usersettings.LteApnActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.systeminfo.SystemInfoActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.systeminfo.AppListActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.systeminfo.SystemVersionActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.systeminfo.EcuVersionActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.pre_env.PreEnvActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.copy.VideoCopyActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.radio.RadioActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.record.RecordActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.DesignVerifyActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.USBTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.HWAndSWInfoActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.bluetooth.BluetoothTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.wlan.WlanTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.camera.CameraTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.mobilenetwork.MobileNetWorkTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.sound.SoundTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.gps.GPSTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.ShowReportActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.clean.ClearDataActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.BrightnessTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.battery.BatteryTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.psu.PsuTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.temperature.TemperatureTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.lcd.ScreenSelftestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <service android:name="com.xiaopeng.devtools.system.service.CollectionService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.CopyFileService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.SecurityCheckService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.ZipFileService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.CanDataCollectService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.CopyLogService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.PcCommandService"/>
+        <service android:name="com.xiaopeng.devtools.system.service.LogUploadService"/>
+        <meta-data android:name="BUGLY_APPID" android:value="109f9d87f8"/>
+        <meta-data android:name="AA_DB_NAME" android:value="FactoryTestResult.db"/>
+        <meta-data android:name="AA_DB_VERSION" android:value="1"/>
+        <meta-data android:name="AA_MODELS" android:value="com.xiaopeng.devtools.bean.factorytest.TestResult"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="ad41544dbec8e14d9bd695efcb1eaa4d"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.PowerTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.GPSWirePowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.FourGPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.FourGModulePowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.SWPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.DvrPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.MediaUsbPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.FaceUsbPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.RadioPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.MicPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.BlowerPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.BrightPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.powertest.GpsPowerActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.audio.AudioTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.signal.SignalShowActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.LcdDebugActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.hwcheck.ImageDispActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.rgb.RGBActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+        </activity>
+        <receiver android:name="com.xiaopeng.devtools.system.receiver.AppBroadcastReceiver" android:permission="com.xiaopeng.permission.BROADCAST">
+            <intent-filter>
+                <action android:name="com.xiaopeng.action.SET_DRIVE_MODE_FROM_CARCONTROL"/>
+                <action android:name="com.xiaopeng.action.SET_DRIVE_MODEFROM_FACTORYTEST"/>
+                <action android:name="com.xiaopeng.action.OPERATE_LOG_SWITCH"/>
+                <action android:name="com.xiaopeng.action.HIDDEN_MENU_CODE"/>
+                <action android:name="com.xiaopeng.action.IVI_DIAGNOSIS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.TestRebootActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.oled.OledActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.demo.AIMediaCopyActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.oled.OledMusicBookActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.update.TestUpdateActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.systeminfo.AllInfoActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.devdebug.hwcheck.HwCheckActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.devdebug.drivemode.DriveModeActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.smartdrive.DriveAllTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.smartdrive.smartdrive.SmartDriveActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.smartdrive.adas.AdasCollectActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.smartdrive.bcan.BCanCollectActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.customerservice.CsDebugToolActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.usersettings.RepairModeActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.modemui.TboxNetworkInfoActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.modemui.TboxBandModeActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.can.CanDataCollectActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.nationalstandard.NationalStandardActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.nationalstandard.AlarmSimulatorActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.usersettings.CfcActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.ecucheck.als.AlsStudyActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.xpu.XpuTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.usersettings.NedcModeActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.AfterSalesActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.UpdateDevicesIdActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.vehicle.VehicleFactoryTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.vehicle.UploadDevicesIdActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.RebootActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.CommonCmdActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.EncryptShActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.cdu.ModuleDiagnosisActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.touch.TouchTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+        </activity>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.phy.PhyTestActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.navi.NaviActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.cdu.StorageMemoryActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.xpu.XpuActivateActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.camera.CsTopCameraActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.cdu.DiagnosisRecordActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.BasicInfoActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.cdu.EachModuleDiagnosisActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.RealtimeStatusActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.FactoryModeActivity" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.key.KeyTestActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.factorytest.hardwaretest.xpu.XpuImageTestActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.WlanPcToolsActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.DIDInfoActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity android:name="com.xiaopeng.devtools.view.aftersales.OneClickDiagnosisActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <service android:name="org.eclipse.paho.android.service.MqttService"/>
+        <provider android:name="com.xiaopeng.lib.framework.netchannelmodule.common.ContextNetStatusProvider" android:exported="false" android:authorities="com.xiaopeng.devtools.netmodule.provider"/>
+        <provider android:name="com.xiaopeng.lib.apirouter.server.ApiPublisherProvider" android:exported="true" android:authorities="com.xiaopeng.devtools.api.publisher"/>
+    </application>
+</manifest>

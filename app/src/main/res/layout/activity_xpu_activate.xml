@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:centerTextResId="@string/test_xpu_activate"/>
+    <LinearLayout android:gravity="center" android:id="@+id/layout_xpu_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:layout_below="@+id/action_bar">
+        <TextView android:textSize="32sp" android:id="@+id/tv_xpu_status" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:enabled="false" android:textSize="32sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/bt_activate_xpu" android:background="@drawable/selector_btn_common" android:layout_width="700dp" android:layout_height="130dp" android:layout_marginTop="200dp" android:text="@string/test_xpu_activate" android:layout_below="@+id/layout_xpu_status" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="64dp" android:layout_centerVertical="true">
+    <TextView android:textSize="@dimen/gps_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/gps_satellite_item" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_marginLeft="32dp"/>
+    <TextView android:textSize="@dimen/gps_text" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/gps_satellite_cnr" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_marginRight="32dp" android:layout_alignParentRight="true"/>
+</RelativeLayout>

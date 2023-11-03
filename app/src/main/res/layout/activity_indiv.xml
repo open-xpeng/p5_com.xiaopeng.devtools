@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.devtools.view.ActionBar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:id="@+id/layout_indiv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:layout_below="@+id/action_bar">
+        <TextView android:textSize="32sp" android:id="@+id/tv_indiv_check_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_test_indiv_check_result_title"/>
+        <TextView android:textSize="32sp" android:id="@+id/tv_indiv_check_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <Button android:textSize="50sp" android:textColor="@drawable/text_color" android:gravity="center" android:id="@+id/bt_get_indiv" android:background="@drawable/selector_btn_common" android:layout_width="1000dp" android:layout_height="130dp" android:layout_marginTop="200dp" android:layout_below="@+id/layout_indiv" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:id="@+id/layout_common" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <include layout="@layout/layout_aftersales_common"/>
+    </LinearLayout>
+</RelativeLayout>

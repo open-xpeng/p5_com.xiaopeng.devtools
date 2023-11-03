@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRadioButton xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/single_selector" android:layout_width="wrap_content" android:layout_height="wrap_content"/>

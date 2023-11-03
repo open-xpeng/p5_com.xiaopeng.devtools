@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="audio_pcm_dump_param">
+        <item>Not configured(0)</item>
+        <item>Music play(1537)</item>
+        <item>Non-music play(2561)</item>
+        <item>Recording (voice recognition)(288)</item>
+        <item>Bluetooth call DownStream(4096)</item>
+        <item>Bluetooth call UpStream(8192)</item>
+    </array>
+    <array name="can_select">
+        <item>CAN1</item>
+        <item>CAN2</item>
+    </array>
+    <array name="diagnosis_module_name">
+        <item>Audio</item>
+        <item>Camera</item>
+        <item>Bluetooth</item>
+        <item>WIFI</item>
+        <item>PSO</item>
+        <item>LIB HTTP</item>
+        <item>SOC</item>
+        <item>Screen</item>
+        <item>Maps</item>
+        <item>4G</item>
+        <item>Memory</item>
+        <item>Power</item>
+        <item>USB</item>
+        <item>CARSERVICE</item>
+        <item>Ethernet</item>
+        <item>Instrument Cluster</item>
+        <item>Instrument Audio</item>
+        <item>Instrument Ethernet</item>
+        <item>Instrument System</item>
+    </array>
+    <array name="drive_mode">
+        <item>STANDARD</item>
+        <item>SPORT</item>
+        <item>ECO</item>
+        <item>ECO Plus</item>
+    </array>
+    <array name="ecu">
+        <item>BCM_VERSION:</item>
+        <item>TPMS_VERSION:</item>
+        <item>SCU_VERSION:</item>
+        <item>PEPS_VERSION:</item>
+        <item>OCU_VERSION:</item>
+        <item>AVM_VERSION:</item>
+        <item>MSM_VERSION:</item>
+        <item>OLED_VERSION:</item>
+        <item>BMS_VERSION:</item>
+        <item>IPU_VERSION:</item>
+        <item>HVAC_VERSION:</item>
+    </array>
+    <array name="ecu_sys">
+        <item>sys.ECU_BCM.version</item>
+        <item>sys.ECU_TPMS.version</item>
+        <item>sys.ECU_SCU.version</item>
+        <item>sys.ECU_PEPS.version</item>
+        <item>sys.ECU_OCU.version</item>
+        <item>sys.ECU_AVM.version</item>
+        <item>sys.ECU_MSM.version</item>
+        <item>sys.ECU_OLED.version</item>
+        <item>sys.ECU_BMS.version</item>
+        <item>sys.ECU_IPU.version</item>
+        <item>sys.ECU_HVAC.version</item>
+    </array>
+    <array name="log_levels">
+        <item>Output VERBOSE log and above</item>
+        <item>Output DEBUG log and above</item>
+        <item>Output INFO log and above</item>
+        <item>Output WARN log and above</item>
+        <item>Output ERROR log and above</item>
+        <item>Output ASSERT log</item>
+        <item>Block all log outputs</item>
+    </array>
+    <array name="oled_note">
+        <item>SW</item>
+        <item>SN</item>
+        <item>XW</item>
+        <item>XN</item>
+    </array>
+    <array name="period_select">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+    </array>
+    <array name="show_status">
+        <item>Microphone status:</item>
+        <item>Navigation antenna status:</item>
+        <item>Radio antenna status:</item>
+        <item>Temperature inside the screen:</item>
+        <item>Total input power supply voltage:</item>
+        <item>Current speed:</item>
+        <item>PWM output of vehicle speed:</item>
+    </array>
+    <array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </array>
+    <array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </array>
+    <array name="wifi_peap_phase2_entries">
+        <item>None</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="wifi_phase2_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="wifi_proxy_settings">
+        <item>None</item>
+        <item>Manual</item>
+    </array>
+    <array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
+    </array>
+    <array name="wifi_signal">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </array>
+</resources>

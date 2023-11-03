@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XCatalog.Item" parent="@style/XCatalogItemBase">
+        <item name="android:textSize">@dimen/x_font_body_02_size</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">33dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="XListTextSub.Two" parent="@style/XListTextSub">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tableLayout_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/layout_oled_note"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="25dp" android:layout_weight="1" layout="@layout/layout_oled_note"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="25dp" android:layout_weight="1" layout="@layout/layout_oled_note"/>
+    <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="25dp" android:layout_weight="1" layout="@layout/layout_oled_note"/>
+</TableLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+    <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_current_state" android:layout_width="wrap_content" android:layout_height="64dp" android:text="@string/text_on_off_state" android:layout_centerHorizontal="true"/>
+    <Button android:textSize="@dimen/common_txt_size" android:id="@+id/bt_control_success" android:visibility="gone" android:layout_width="140dp" android:layout_height="64dp" android:layout_marginRight="16dp" android:text="@string/test_succeed" android:layout_toLeftOf="@+id/bt_control_fail" android:layout_alignTop="@+id/tv_current_state" style="@style/ItemTestButton"/>
+    <Button android:textSize="@dimen/common_txt_size" android:id="@+id/bt_control_fail" android:visibility="gone" android:layout_width="140dp" android:layout_height="64dp" android:layout_marginRight="16dp" android:text="@string/test_fail" android:layout_toLeftOf="@+id/result_control_tv" android:layout_alignTop="@+id/bt_control_success" style="@style/ItemTestButton"/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/result_control_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="64dp" android:layout_alignParentRight="true"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="32dp" android:layout_below="@+id/tv_current_state">
+        <Button android:id="@+id/bt_control_on" android:layout_width="160dp" android:layout_height="match_parent" android:layout_marginRight="32dp" android:text="@string/state_on" style="@style/ItemTestButton"/>
+        <Button android:id="@+id/bt_control_off" android:layout_width="160dp" android:layout_height="match_parent" android:layout_marginLeft="32dp" android:text="@string/state_off" style="@style/ItemTestButton"/>
+    </LinearLayout>
+</RelativeLayout>

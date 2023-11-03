@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100dp">
+    <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_test_item" android:layout_width="wrap_content" android:layout_height="100dp" android:layout_marginLeft="32dp" android:text="当前车速："/>
+    <TextView android:textSize="@dimen/common_txt_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_test_result" android:layout_width="wrap_content" android:layout_height="100dp" android:layout_marginLeft="32dp" android:text="正常"/>
+</LinearLayout>
